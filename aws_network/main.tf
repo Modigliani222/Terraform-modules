@@ -42,7 +42,7 @@ resource "aws_route_table" "public_subnets" {
     gateway_id = aws_internet_gateway.main.id
   }
   tags = {
-    Name = "simple_Route_table"
+    Name = "simple_route_table"
   }
 }
 
